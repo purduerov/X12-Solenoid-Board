@@ -3726,6 +3726,7 @@ W = angled&lt;p&gt;
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="C18" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-PANASONIC_D-35V-20%" package3d_urn="urn:adsk.eagle:package:37420/1" value="47uF"/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3997,6 +3998,9 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="122.936" y="59.055" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="122.936" y="54.229" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="+3V4" gate="G$1" x="317.5" y="147.32" smashed="yes">
+<attribute name="VALUE" x="314.96" y="142.24" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4184,11 +4188,6 @@ W = angled&lt;p&gt;
 <wire x1="279.4" y1="149.86" x2="279.4" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDD"/>
-<wire x1="332.74" y1="142.24" x2="317.5" y2="142.24" width="0.1524" layer="91"/>
-<label x="317.5" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$3" gate="G$1" pin="VDDIO2"/>
 <wire x1="378.46" y1="121.92" x2="396.24" y2="121.92" width="0.1524" layer="91"/>
 <label x="391.16" y="121.92" size="1.778" layer="95"/>
@@ -4202,6 +4201,12 @@ W = angled&lt;p&gt;
 <pinref part="U$3" gate="G$1" pin="VDDA"/>
 <wire x1="332.74" y1="129.54" x2="317.5" y2="129.54" width="0.1524" layer="91"/>
 <label x="317.5" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="VDD"/>
+<wire x1="332.74" y1="142.24" x2="317.5" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="317.5" y1="144.78" x2="317.5" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
