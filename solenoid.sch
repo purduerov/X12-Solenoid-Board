@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3659,60 +3659,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="BackplaneParts">
-<packages>
-<package name="T2I">
-<wire x1="0" y1="0" x2="0" y2="5.588" width="0.127" layer="21"/>
-<wire x1="0" y1="5.588" x2="17.8054" y2="5.588" width="0.127" layer="21"/>
-<wire x1="17.8054" y1="5.588" x2="17.8054" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="13.1318" y1="0" x2="17.78" y2="0" width="0.127" layer="21"/>
-<wire x1="13.1318" y1="-1.016" x2="7.62" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.016" x2="7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="13.1318" y1="-1.016" x2="13.1318" y2="0" width="0.127" layer="21"/>
-<pad name="S1" x="0.7" y="2.8" drill="0.7"/>
-<pad name="1" x="8.1" y="2.8" drill="0.8"/>
-<pad name="2" x="10.1" y="2.8" drill="0.8"/>
-<pad name="3" x="12.1" y="2.8" drill="0.8"/>
-<pad name="4" x="14.1" y="2.8" drill="0.8"/>
-<pad name="S2" x="17.1" y="2.8" drill="0.8"/>
-</package>
-</packages>
-<symbols>
-<symbol name="T2I">
-<wire x1="0" y1="7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="2" x="5.08" y="12.7" length="middle" rot="R270"/>
-<pin name="3" x="7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="4" x="10.16" y="12.7" length="middle" rot="R270"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="T2I">
-<gates>
-<gate name="G$1" symbol="T2I" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="T2I">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3793,7 +3739,8 @@ W = angled&lt;p&gt;
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="C18" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-PANASONIC_D-35V-20%" package3d_urn="urn:adsk.eagle:package:37420/1" value="47uF"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$7" library="BackplaneParts" deviceset="T2I" device=""/>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -4054,9 +4001,13 @@ W = angled&lt;p&gt;
 <instance part="+3V4" gate="G$1" x="317.5" y="147.32" smashed="yes">
 <attribute name="VALUE" x="314.96" y="142.24" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$7" gate="G$1" x="408.94" y="-60.96" smashed="yes">
-<attribute name="NAME" x="401.32" y="-53.34" size="1.778" layer="95"/>
-<attribute name="VALUE" x="401.32" y="-58.42" size="1.778" layer="96"/>
+<instance part="J3" gate="G$1" x="398.78" y="-50.8" smashed="yes">
+<attribute name="VALUE" x="396.24" y="-55.626" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="396.24" y="-45.212" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J4" gate="G$1" x="398.78" y="-63.5" smashed="yes">
+<attribute name="VALUE" x="396.24" y="-68.326" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="396.24" y="-57.912" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -4187,9 +4138,9 @@ W = angled&lt;p&gt;
 <wire x1="121.92" y1="53.34" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="4"/>
-<wire x1="419.1" y1="-48.26" x2="419.1" y2="-43.18" width="0.1524" layer="91"/>
-<label x="419.1" y="-48.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="-50.8" x2="416.56" y2="-50.8" width="0.1524" layer="91"/>
+<label x="411.48" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -4347,9 +4298,9 @@ W = angled&lt;p&gt;
 <wire x1="121.92" y1="63.5" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="3"/>
-<wire x1="416.56" y1="-48.26" x2="416.56" y2="-43.18" width="0.1524" layer="91"/>
-<label x="416.56" y="-48.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="406.4" y1="-48.26" x2="416.56" y2="-48.26" width="0.1524" layer="91"/>
+<label x="411.48" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -4403,9 +4354,9 @@ W = angled&lt;p&gt;
 <wire x1="121.92" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="1"/>
-<wire x1="411.48" y1="-48.26" x2="411.48" y2="-43.18" width="0.1524" layer="91"/>
-<label x="411.48" y="-48.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="406.4" y1="-60.96" x2="416.56" y2="-60.96" width="0.1524" layer="91"/>
+<label x="411.48" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -4421,9 +4372,9 @@ W = angled&lt;p&gt;
 <wire x1="121.92" y1="121.92" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="-48.26" x2="414.02" y2="-43.18" width="0.1524" layer="91"/>
-<label x="414.02" y="-48.26" size="1.778" layer="95" rot="R90"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="-63.5" x2="416.56" y2="-63.5" width="0.1524" layer="91"/>
+<label x="411.48" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
