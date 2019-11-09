@@ -1187,8 +1187,6 @@ Please make sure your boards conform to these design rules.
 <via x="30.988" y="15.24" extent="1-16" drill="0.35"/>
 <wire x1="30.988" y1="15.24" x2="30.734" y2="14.986" width="0.254" layer="16"/>
 <wire x1="30.734" y1="14.986" x2="26.332" y2="14.986" width="0.254" layer="16"/>
-<wire x1="18.542" y1="22.352" x2="13.374" y2="22.352" width="0.254" layer="1"/>
-<wire x1="13.374" y1="22.352" x2="10.834" y2="19.812" width="0.254" layer="1"/>
 <via x="20.0084" y="11.95728125" extent="1-16" drill="0.35"/>
 <wire x1="22.86" y1="15.976" x2="22.606" y2="15.722" width="0.254" layer="16"/>
 <wire x1="22.606" y1="15.722" x2="22.606" y2="14.058" width="0.254" layer="16"/>
@@ -1204,6 +1202,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="20.0084" y1="11.95728125" x2="19.2464" y2="11.19528125" width="0.254" layer="1"/>
 <wire x1="19.2464" y1="11.19528125" x2="19.2464" y2="7.9316" width="0.254" layer="1"/>
 <wire x1="19.2464" y1="7.9316" x2="20.574" y2="6.604" width="0.254" layer="1"/>
+<wire x1="10.834" y1="19.812" x2="10.834" y2="20.74" width="0.254" layer="1"/>
+<wire x1="10.834" y1="20.74" x2="12.446" y2="22.352" width="0.254" layer="1"/>
+<wire x1="12.446" y1="22.352" x2="18.542" y2="22.352" width="0.254" layer="1"/>
 </signal>
 <signal name="GPIO1">
 <contactref element="U$3" pad="PB6"/>
