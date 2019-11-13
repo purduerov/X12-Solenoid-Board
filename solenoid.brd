@@ -1414,16 +1414,20 @@ Please make sure your boards conform to these design rules.
 <signal name="OSC_IN">
 <contactref element="U$3" pad="PF0-OSC_IN"/>
 <contactref element="R3" pad="2"/>
-<wire x1="28.804" y1="8.91" x2="28.804" y2="8.992" width="0.254" layer="16"/>
-<wire x1="30.051" y1="10.239" x2="30.2549125" y2="10.239" width="0.254" layer="16"/>
 <wire x1="30.775" y1="12.609" x2="30.436" y2="12.948" width="0.254" layer="1"/>
 <wire x1="30.436" y1="12.948" x2="29.674" y2="12.948" width="0.254" layer="1"/>
-<wire x1="28.804" y1="8.992" x2="30.051" y2="10.239" width="0.254" layer="16"/>
-<wire x1="30.988" y1="10.9720875" x2="30.988" y2="11.562" width="0.254" layer="16"/>
+<wire x1="28.804" y1="8.91" x2="28.9259125" y2="8.91" width="0.254" layer="16"/>
 <via x="30.988" y="11.562" extent="1-16" drill="0.35"/>
 <wire x1="30.988" y1="11.562" x2="30.775" y2="11.775" width="0.254" layer="1"/>
 <wire x1="30.775" y1="11.775" x2="30.775" y2="12.609" width="0.254" layer="1"/>
-<wire x1="30.2549125" y1="10.239" x2="30.988" y2="10.9720875" width="0.254" layer="16"/>
+<wire x1="30.988" y1="11.562" x2="31.501" y2="11.049" width="0.254" layer="16"/>
+<wire x1="31.501" y1="11.049" x2="32.004" y2="11.049" width="0.254" layer="16"/>
+<wire x1="32.004" y1="11.049" x2="32.131" y2="10.922" width="0.254" layer="16"/>
+<wire x1="28.824" y1="8.89" x2="28.804" y2="8.91" width="0.254" layer="16"/>
+<wire x1="32.131" y1="10.922" x2="32.385" y2="10.668" width="0.254" layer="16"/>
+<wire x1="32.385" y1="10.668" x2="32.385" y2="9.271" width="0.254" layer="16"/>
+<wire x1="32.385" y1="9.271" x2="32.004" y2="8.89" width="0.254" layer="16"/>
+<wire x1="32.004" y1="8.89" x2="28.824" y2="8.89" width="0.254" layer="16"/>
 </signal>
 <signal name="OSC_OUT">
 <contactref element="U$3" pad="PF1-OSC_OUT"/>
