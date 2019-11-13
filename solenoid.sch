@@ -4273,9 +4273,9 @@ W = angled&lt;p&gt;
 <label x="353.06" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IN3"/>
-<wire x1="-2.54" y1="-48.26" x2="-12.7" y2="-48.26" width="0.1524" layer="91"/>
-<label x="-12.7" y="-48.26" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="IN2"/>
+<wire x1="-2.54" y1="-43.18" x2="-12.7" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-12.7" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -4285,9 +4285,9 @@ W = angled&lt;p&gt;
 <label x="350.52" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IN4"/>
-<wire x1="-2.54" y1="-53.34" x2="-12.7" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-12.7" y="-53.34" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="IN1"/>
+<wire x1="-2.54" y1="-38.1" x2="-12.7" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-12.7" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO3" class="0">
@@ -4297,9 +4297,9 @@ W = angled&lt;p&gt;
 <label x="363.22" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IN1"/>
-<wire x1="-2.54" y1="-38.1" x2="-12.7" y2="-38.1" width="0.1524" layer="91"/>
-<label x="-12.7" y="-38.1" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="IN4"/>
+<wire x1="-2.54" y1="-53.34" x2="-12.7" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-12.7" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -4309,9 +4309,9 @@ W = angled&lt;p&gt;
 <label x="360.68" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IN2"/>
-<wire x1="-2.54" y1="-43.18" x2="-12.7" y2="-43.18" width="0.1524" layer="91"/>
-<label x="-12.7" y="-43.18" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="IN3"/>
+<wire x1="-2.54" y1="-48.26" x2="-12.7" y2="-48.26" width="0.1524" layer="91"/>
+<label x="-12.7" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
