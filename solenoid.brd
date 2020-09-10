@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -558,13 +558,12 @@
 <rectangle x1="28.1051" y1="28.8671" x2="28.1305" y2="28.8925" layer="207"/>
 <rectangle x1="26.6065" y1="28.8925" x2="27.6987" y2="28.9179" layer="200"/>
 <rectangle x1="26.3779" y1="28.8925" x2="26.4033" y2="28.9179" layer="205"/>
-<text x="13.8176" y="1.1684" size="0.3048" layer="25">ROV X12 Solenoid Board v1
-12/30/2019
+<text x="14.3256" y="1.651" size="0.3048" layer="25">Solenoid Board v1
 Alex Wilson
 Katherine Sandys
 Callum Gundlach
 Jacob Bobson
-Cynthia Zatlokowicz</text>
+Cyunthia Zatlokowicz</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -648,6 +647,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 <package3d name="PANASONIC_D" urn="urn:adsk.eagle:package:37420/1" type="box" library_version="1">
 <description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E</description>
+<packageinstances>
+<packageinstance name="PANASONIC_D"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -757,6 +759,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_02
 </description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -946,6 +951,9 @@ W = angled&lt;p&gt;
 <packages3d>
 <package3d name="FE05-1" urn="urn:adsk.eagle:package:8190/1" type="box" library_version="1">
 <description>FEMALE HEADER</description>
+<packageinstances>
+<packageinstance name="FE05-1"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -979,6 +987,9 @@ W = angled&lt;p&gt;
 <package3d name="SOP100P600X175-10N" urn="urn:adsk.eagle:package:14404580/1" type="model">
 <description>10-SOP, 1.00 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.75 mm body
 &lt;p&gt;10-pin SOP package with 1.00 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP100P600X175-10N"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -1130,6 +1141,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
 Devices Using
 STAND-OFF</description>
+<packageinstances>
+<packageinstance name="STAND-OFF"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -1224,6 +1238,9 @@ Please make sure your boards conform to these design rules.
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2226,6 +2243,13 @@ Please make sure your boards conform to these design rules.
 <wire x1="14.068" y1="16.158" x2="12.3746" y2="16.158" width="0.254" layer="16"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
