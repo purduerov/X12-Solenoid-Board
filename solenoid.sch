@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2599,56 +2599,6 @@ LED</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="ece477">
-<packages>
-<package name="MURATA-DCDC">
-<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.27" x2="5.08" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="0" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="16.51" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="16.51" x2="5.08" y2="16.51" width="0.127" layer="21"/>
-<wire x1="5.08" y1="16.51" x2="5.08" y2="0" width="0.127" layer="21"/>
-<text x="-2.54" y="17.78" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;VALUE</text>
-<pad name="VIN" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="GND" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3.3V" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MURATA-DCDC">
-<pin name="VIN" x="-12.7" y="5.08" length="middle"/>
-<pin name="3.3V" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="GND" x="0" y="-7.62" length="middle" rot="R90"/>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.27" layer="95">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="12-TO-3.3-DC-DC">
-<gates>
-<gate name="A" symbol="MURATA-DCDC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MURATA-DCDC">
-<connects>
-<connect gate="A" pin="3.3V" pad="3.3V"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VIN" pad="VIN"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -3659,6 +3609,87 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="MURATA_3pin_dcdc">
+<packages>
+<package name="MURATA-DC-DC" urn="urn:adsk.eagle:footprint:23169698/1" locally_modified="yes">
+<description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<text x="-3.81" y="-2.413" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="0" y1="1" x2="5.2" y2="1" width="0.127" layer="21"/>
+<wire x1="5.2" y1="1" x2="5.2" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="5.2" y1="-16.5" x2="-5.2" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-16.5" x2="-5.2" y2="1" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="1" x2="0" y2="1" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="5.08" y2="1.016" width="0.127" layer="39"/>
+<wire x1="5.08" y1="1.016" x2="5.08" y2="-16.256" width="0.127" layer="39"/>
+<wire x1="5.08" y1="-16.256" x2="-5.08" y2="-16.256" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="-16.256" x2="-5.08" y2="1.016" width="0.127" layer="39"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MURATA-DC-DC" urn="urn:adsk.eagle:package:23169699/2" type="model">
+<description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="MURATA-DC-DC"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MURATA-DC-DC">
+<wire x1="-2.54" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="VIN" x="-7.62" y="0" length="middle"/>
+<pin name="VOUT" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-10.16" size="1.778" layer="95">Part: OKI-78SR</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MURATA-DC-DC">
+<gates>
+<gate name="G$1" symbol="MURATA-DC-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MURATA-DC-DC">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23169699/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3683,7 +3714,6 @@ W = angled&lt;p&gt;
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value=" "/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value=" "/>
-<part name="U$4" library="ece477" deviceset="12-TO-3.3-DC-DC" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
@@ -3741,6 +3771,7 @@ W = angled&lt;p&gt;
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="U$2" library="MURATA_3pin_dcdc" deviceset="MURATA-DC-DC" device="" package3d_urn="urn:adsk.eagle:package:23169699/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -3810,10 +3841,6 @@ W = angled&lt;p&gt;
 <instance part="R6" gate="G$1" x="279.4" y="-43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="277.876" y="-43.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="280.924" y="-43.18" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="U$4" gate="A" x="172.72" y="58.42" smashed="yes">
-<attribute name="NAME" x="170.18" y="68.58" size="1.27" layer="95"/>
-<attribute name="VALUE" x="175.26" y="53.34" size="1.27" layer="95"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="190.5" y="68.58" smashed="yes">
 <attribute name="VALUE" x="187.96" y="63.5" size="1.778" layer="96" rot="R90"/>
@@ -4009,6 +4036,9 @@ W = angled&lt;p&gt;
 <attribute name="VALUE" x="396.24" y="-68.326" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="396.24" y="-57.912" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="U$2" gate="G$1" x="167.64" y="63.5" smashed="yes">
+<attribute name="NAME" x="165.1" y="66.04" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4025,9 +4055,9 @@ W = angled&lt;p&gt;
 <wire x1="289.56" y1="-60.96" x2="289.56" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="A" pin="GND"/>
 <wire x1="172.72" y1="50.8" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="GND" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -4151,9 +4181,9 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="U$4" gate="A" pin="3.3V"/>
 <wire x1="190.5" y1="66.04" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -4272,10 +4302,10 @@ W = angled&lt;p&gt;
 <wire x1="289.56" y1="-38.1" x2="289.56" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="A" pin="VIN"/>
 <wire x1="160.02" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="63.5" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="12V"/>
+<pinref part="U$2" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="12V"/>
