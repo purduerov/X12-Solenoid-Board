@@ -1139,6 +1139,39 @@ STAND-OFF</description>
 </package3d>
 </packages3d>
 </library>
+<library name="QS5K2TR">
+<packages>
+<package name="SOT95P280X100-5N">
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.127" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.45" x2="0.8" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-2.06" y1="1.49" x2="-1.05" y2="1.49" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="1.49" x2="-1.05" y2="1.7" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="1.7" x2="1.05" y2="1.7" width="0.05" layer="39"/>
+<wire x1="1.05" y1="1.7" x2="1.05" y2="1.49" width="0.05" layer="39"/>
+<wire x1="1.05" y1="1.49" x2="2.06" y2="1.49" width="0.05" layer="39"/>
+<wire x1="2.06" y1="-1.49" x2="1.05" y2="-1.49" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-1.49" x2="1.05" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-1.7" x2="-1.05" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-1.7" x2="-1.05" y2="-1.49" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-1.49" x2="-2.06" y2="-1.49" width="0.05" layer="39"/>
+<wire x1="-2.06" y1="-1.49" x2="-2.06" y2="1.49" width="0.05" layer="39"/>
+<wire x1="2.06" y1="1.49" x2="2.06" y2="-1.49" width="0.05" layer="39"/>
+<circle x="-2.5" y="1" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.5" y="1" radius="0.1" width="0.2" layer="51"/>
+<text x="-1.10081875" y="1.801340625" size="0.406703125" layer="25">&gt;NAME</text>
+<text x="-1.100109375" y="-2.200209375" size="0.4064375" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.145" y="0.95" dx="1.32" dy="0.57" layer="1" roundness="14"/>
+<smd name="2" x="-1.145" y="0" dx="1.32" dy="0.57" layer="1" roundness="14"/>
+<smd name="3" x="-1.145" y="-0.95" dx="1.32" dy="0.57" layer="1" roundness="14"/>
+<smd name="4" x="1.145" y="-0.95" dx="1.32" dy="0.57" layer="1" roundness="14" rot="R180"/>
+<smd name="5" x="1.145" y="0.95" dx="1.32" dy="0.57" layer="1" roundness="14" rot="R180"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1513,6 +1546,78 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="20.3962" y="21.2598" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="21.2852" y="21.2598" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
+<element name="U1" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-2.3622" y="0.635" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Rohm" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="QS5K2TR" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.46301875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-3.462309375" y="-1.565209375" size="0.4064375" layer="27"/>
+</element>
+<element name="U2" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-7.1628" y="0.635" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Rohm" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="QS5K2TR" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-8.26361875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-8.262909375" y="-1.565209375" size="0.4064375" layer="27"/>
+</element>
+<element name="U3" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-11.9634" y="0.635" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Rohm" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="QS5K2TR" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-13.06421875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-13.063509375" y="-1.565209375" size="0.4064375" layer="27"/>
+</element>
+<element name="U4" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-16.764" y="0.635" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Rohm" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="QS5K2TR" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-17.86481875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-17.864109375" y="-1.565209375" size="0.4064375" layer="27"/>
+</element>
+<element name="U5" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-21.5646" y="0.635" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Rohm" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="QS5K2TR" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.66541875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-22.664709375" y="-1.565209375" size="0.4064375" layer="27"/>
+</element>
+<element name="U6" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-26.3652" y="0.635" smashed="yes">
+<attribute name="AVAILABILITY" value="Good" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Rohm" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="QS5K2TR" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-27.46601875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-27.465309375" y="-1.565209375" size="0.4064375" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1751,6 +1856,18 @@ Please make sure your boards conform to these design rules.
 <wire x1="10.6804" y1="23.5204" x2="13.9192" y2="23.5204" width="0.762" layer="1"/>
 <wire x1="13.9192" y1="26.4922" x2="13.9192" y2="23.5204" width="0.254" layer="1"/>
 <wire x1="16.9926" y1="23.5204" x2="13.9192" y2="23.5204" width="0.762" layer="1"/>
+<contactref element="U1" pad="2"/>
+<contactref element="U2" pad="2"/>
+<contactref element="U3" pad="2"/>
+<contactref element="U4" pad="2"/>
+<contactref element="U5" pad="2"/>
+<contactref element="U6" pad="2"/>
+<wire x1="-3.5072" y1="0.635" x2="10.892" y2="17.938" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.3078" y1="0.635" x2="-3.5072" y2="0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.1084" y1="0.635" x2="-8.3078" y2="0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.909" y1="0.635" x2="-13.1084" y2="0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.7096" y1="0.635" x2="-17.909" y2="0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.5102" y1="0.635" x2="-22.7096" y2="0.635" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R4" pad="1"/>
