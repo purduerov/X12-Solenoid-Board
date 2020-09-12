@@ -1546,77 +1546,77 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="20.3962" y="21.2598" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="21.2852" y="21.2598" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="U1" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-2.3622" y="0.635" smashed="yes">
+<element name="U1" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="2.4384" y="-4.4704" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Rohm" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="QS5K2TR" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.46301875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="NAME" x="1.33758125" y="-2.669059375" size="0.406703125" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-2.3622" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-3.462309375" y="-1.565209375" size="0.4064375" layer="27"/>
+<attribute name="VALUE" x="1.338290625" y="-6.670609375" size="0.4064375" layer="27"/>
 </element>
-<element name="U2" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-7.1628" y="0.635" smashed="yes">
+<element name="U3" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="2.4384" y="-9.5758" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Rohm" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="QS5K2TR" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-8.26361875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="NAME" x="1.33758125" y="-7.774459375" size="0.406703125" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-7.1628" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-8.262909375" y="-1.565209375" size="0.4064375" layer="27"/>
+<attribute name="VALUE" x="1.338290625" y="-11.776009375" size="0.4064375" layer="27"/>
 </element>
-<element name="U3" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-11.9634" y="0.635" smashed="yes">
+<element name="U5" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="2.4384" y="-14.6812" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Rohm" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="QS5K2TR" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-13.06421875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="NAME" x="1.33758125" y="-12.879859375" size="0.406703125" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-11.9634" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-13.063509375" y="-1.565209375" size="0.4064375" layer="27"/>
+<attribute name="VALUE" x="1.338290625" y="-16.881409375" size="0.4064375" layer="27"/>
 </element>
-<element name="U4" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-16.764" y="0.635" smashed="yes">
+<element name="U2" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="7.239" y="-4.4704" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Rohm" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="QS5K2TR" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.86481875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="NAME" x="6.13818125" y="-2.669059375" size="0.406703125" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-16.764" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.864109375" y="-1.565209375" size="0.4064375" layer="27"/>
+<attribute name="VALUE" x="6.138890625" y="-6.670609375" size="0.4064375" layer="27"/>
 </element>
-<element name="U5" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-21.5646" y="0.635" smashed="yes">
+<element name="U4" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="7.239" y="-9.5758" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Rohm" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="QS5K2TR" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-22.66541875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="NAME" x="6.13818125" y="-7.774459375" size="0.406703125" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-21.5646" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-22.664709375" y="-1.565209375" size="0.4064375" layer="27"/>
+<attribute name="VALUE" x="6.138890625" y="-11.776009375" size="0.4064375" layer="27"/>
 </element>
-<element name="U6" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="-26.3652" y="0.635" smashed="yes">
+<element name="U6" library="QS5K2TR" package="SOT95P280X100-5N" value="QS5K2TR" x="7.239" y="-14.6812" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Mosfet Array 2 N-Channel (Dual) Common Source 30V 2A 1.25W Surface Mount TSMT5 " x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=623744" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Rohm" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=623744" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="QS5K2TR" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-27.46601875" y="2.436340625" size="0.406703125" layer="25"/>
+<attribute name="NAME" x="6.13818125" y="-12.879859375" size="0.406703125" layer="25"/>
 <attribute name="PACKAGE" value="SOT-23-5 Rohm" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-26.3652" y="0.635" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-27.465309375" y="-1.565209375" size="0.4064375" layer="27"/>
+<attribute name="VALUE" x="6.138890625" y="-16.881409375" size="0.4064375" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1798,6 +1798,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="25.146" y1="9.144" x2="24.892" y2="9.144" width="0.254" layer="1"/>
 <wire x1="25.8318" y1="10.6902" x2="25.8318" y2="9.8298" width="0.254" layer="1"/>
 <wire x1="25.8318" y1="10.6902" x2="25.824" y2="10.698" width="0.254" layer="1"/>
+<contactref element="U2" pad="1"/>
+<wire x1="6.094" y1="-3.5204" x2="19.542" y2="9.414" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO0">
 <contactref element="U$3" pad="PB7"/>
@@ -1806,6 +1808,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="26.162" y1="8.382" x2="22.352" y2="8.382" width="0.254" layer="1"/>
 <via x="22.352" y="8.382" extent="1-16" drill="0.35"/>
 <wire x1="22.352" y1="8.382" x2="18.5074" y2="8.382" width="0.254" layer="16"/>
+<contactref element="U2" pad="3"/>
+<wire x1="6.094" y1="-5.4204" x2="18.5074" y2="8.382" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO3">
 <contactref element="U$3" pad="PB3"/>
@@ -1817,6 +1821,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="20.92628125" y1="11.27428125" x2="19.6344125" y2="11.27428125" width="0.254" layer="16"/>
 <wire x1="21.082" y1="11.43" x2="20.92628125" y2="11.27428125" width="0.254" layer="16"/>
 <wire x1="23.368" y1="11.43" x2="21.082" y2="11.43" width="0.254" layer="16"/>
+<contactref element="U1" pad="1"/>
+<wire x1="1.2934" y1="-3.5204" x2="19.49469375" y2="11.414" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="U$3" pad="PB4"/>
@@ -1827,6 +1833,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="23.9212" y1="9.6972" x2="21.336" y2="9.6972" width="0.254" layer="1"/>
 <wire x1="24.224" y1="10.698" x2="24.224" y2="10" width="0.254" layer="1"/>
 <wire x1="24.224" y1="10" x2="23.9212" y2="9.6972" width="0.254" layer="1"/>
+<contactref element="U1" pad="3"/>
+<wire x1="1.2934" y1="-5.4204" x2="19.558" y2="10.414" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="12V">
 <contactref element="R4" pad="2"/>
@@ -1857,17 +1865,17 @@ Please make sure your boards conform to these design rules.
 <wire x1="13.9192" y1="26.4922" x2="13.9192" y2="23.5204" width="0.254" layer="1"/>
 <wire x1="16.9926" y1="23.5204" x2="13.9192" y2="23.5204" width="0.762" layer="1"/>
 <contactref element="U1" pad="2"/>
-<contactref element="U2" pad="2"/>
 <contactref element="U3" pad="2"/>
-<contactref element="U4" pad="2"/>
 <contactref element="U5" pad="2"/>
+<contactref element="U2" pad="2"/>
+<contactref element="U4" pad="2"/>
 <contactref element="U6" pad="2"/>
-<wire x1="-3.5072" y1="0.635" x2="10.892" y2="17.938" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.3078" y1="0.635" x2="-3.5072" y2="0.635" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.1084" y1="0.635" x2="-8.3078" y2="0.635" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.909" y1="0.635" x2="-13.1084" y2="0.635" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.7096" y1="0.635" x2="-17.909" y2="0.635" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.5102" y1="0.635" x2="-22.7096" y2="0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="6.094" y1="-4.4704" x2="17.3324" y2="12.414" width="0" layer="19" extent="1-16"/>
+<wire x1="1.2934" y1="-4.4704" x2="6.094" y2="-4.4704" width="0" layer="19" extent="1-1"/>
+<wire x1="1.2934" y1="-9.5758" x2="1.2934" y2="-4.4704" width="0" layer="19" extent="1-1"/>
+<wire x1="6.094" y1="-9.5758" x2="1.2934" y2="-9.5758" width="0" layer="19" extent="1-1"/>
+<wire x1="1.2934" y1="-14.6812" x2="1.2934" y2="-9.5758" width="0" layer="19" extent="1-1"/>
+<wire x1="6.094" y1="-14.6812" x2="1.2934" y2="-14.6812" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R4" pad="1"/>
@@ -2112,6 +2120,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="9.46678125" y1="5.9436" x2="8.6106" y2="5.9436" width="0.254" layer="16"/>
 <wire x1="8.336" y1="5.669" x2="8.336" y2="4.8694" width="0.254" layer="16"/>
 <wire x1="8.6106" y1="5.9436" x2="8.336" y2="5.669" width="0.254" layer="16"/>
+<contactref element="U2" pad="5"/>
+<wire x1="8.384" y1="-3.5204" x2="8.336" y2="4.8694" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL2_2">
 <contactref element="J2" pad="1"/>
@@ -2128,6 +2138,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="9.95888125" y1="2.84688125" x2="9.398" y2="2.286" width="0.254" layer="16"/>
 <wire x1="9.398" y1="2.286" x2="9.3546" y2="2.3294" width="0.254" layer="16"/>
 <wire x1="9.3546" y1="2.3294" x2="8.336" y2="2.3294" width="0.254" layer="16"/>
+<contactref element="U2" pad="4"/>
+<wire x1="8.384" y1="-5.4204" x2="8.336" y2="2.3294" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO15">
 <contactref element="U$3" pad="PA10"/>
@@ -2138,6 +2150,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="21.174" y1="15.348" x2="21.1574" y2="15.3646" width="0.254" layer="1"/>
 <wire x1="20.17926875" y1="15.6436" x2="19.3931625" y2="15.6436" width="0.254" layer="1"/>
 <wire x1="20.45826875" y1="15.3646" x2="20.17926875" y2="15.6436" width="0.254" layer="1"/>
+<contactref element="U6" pad="3"/>
+<wire x1="6.094" y1="-15.6312" x2="18.6535625" y2="15.158" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO14">
 <contactref element="U$3" pad="PA9"/>
@@ -2149,6 +2163,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="21.174" y1="16.148" x2="21.1574" y2="16.1646" width="0.254" layer="1"/>
 <wire x1="20.3446625" y1="16.1646" x2="19.7452625" y2="16.764" width="0.254" layer="1"/>
 <wire x1="21.1574" y1="16.1646" x2="20.3446625" y2="16.1646" width="0.254" layer="1"/>
+<contactref element="U6" pad="1"/>
+<wire x1="6.094" y1="-13.7312" x2="17.48845" y2="16.32505" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO13">
 <contactref element="U$3" pad="PA8"/>
@@ -2159,6 +2175,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="19.685" y1="17.78" x2="19.558" y2="17.78" width="0.254" layer="1"/>
 <wire x1="20.517" y1="16.948" x2="19.685" y2="17.78" width="0.254" layer="1"/>
 <wire x1="21.174" y1="16.948" x2="20.517" y2="16.948" width="0.254" layer="1"/>
+<contactref element="U5" pad="3"/>
+<wire x1="1.2934" y1="-15.6312" x2="17.48845" y2="17.32505" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO10">
 <contactref element="U$3" pad="PA5"/>
@@ -2172,6 +2190,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="26.67" y1="21.336" x2="25.4" y2="22.606" width="0.254" layer="1"/>
 <wire x1="26.67" y1="21.336" x2="26.67" y2="19.244" width="0.254" layer="1"/>
 <wire x1="16.66204375" y1="21.43795625" x2="15.817" y2="22.283" width="0.254" layer="16"/>
+<contactref element="U4" pad="1"/>
+<wire x1="6.094" y1="-8.6258" x2="16.86595625" y2="21.43795625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO9">
 <contactref element="U$3" pad="PA4"/>
@@ -2185,6 +2205,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="16.4084" y1="24.2316" x2="15.4686" y2="23.2918" width="0.254" layer="16"/>
 <wire x1="15.4686" y1="23.2918" x2="13.8342" y2="23.2918" width="0.254" layer="16"/>
 <wire x1="16.4084" y1="28.6004" x2="16.4084" y2="24.2316" width="0.254" layer="16"/>
+<contactref element="U3" pad="3"/>
+<wire x1="1.2934" y1="-10.5258" x2="13.8342" y2="23.2918" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO8">
 <contactref element="U$3" pad="PA3"/>
@@ -2198,6 +2220,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="15.748" y1="24.8666" x2="15.1638" y2="24.2824" width="0.254" layer="16"/>
 <wire x1="15.1638" y1="24.2824" x2="13.826" y2="24.2824" width="0.254" layer="16"/>
 <wire x1="15.748" y1="28.956" x2="15.748" y2="24.8666" width="0.254" layer="16"/>
+<contactref element="U3" pad="1"/>
+<wire x1="1.2934" y1="-8.6258" x2="13.826" y2="24.2824" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO11">
 <contactref element="U$3" pad="PA6"/>
@@ -2213,6 +2237,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="15.748" y1="21.082" x2="15.2146" y2="21.082" width="0.254" layer="16"/>
 <wire x1="15.2146" y1="21.082" x2="15.0114" y2="21.2852" width="0.254" layer="16"/>
 <wire x1="15.0114" y1="21.2852" x2="13.8276" y2="21.2852" width="0.254" layer="16"/>
+<contactref element="U4" pad="3"/>
+<wire x1="6.094" y1="-10.5258" x2="13.8276" y2="21.2852" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GPIO12">
 <contactref element="U$3" pad="PA7"/>
@@ -2225,11 +2251,15 @@ Please make sure your boards conform to these design rules.
 <wire x1="25.067" y1="20.6029125" x2="25.067" y2="19.241" width="0.254" layer="1"/>
 <wire x1="24.4129125" y1="21.257" x2="21.511" y2="21.257" width="0.254" layer="1"/>
 <wire x1="21.511" y1="21.257" x2="19.286021875" y2="19.032021875" width="0.254" layer="1"/>
+<contactref element="U5" pad="1"/>
+<wire x1="1.2934" y1="-13.7312" x2="18.650759375" y2="18.158" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SOL3_1">
 <contactref element="J5" pad="2"/>
 <wire x1="5.725" y1="25.283" x2="2.045" y2="21.603" width="0.254" layer="16"/>
 <wire x1="2.045" y1="21.603" x2="2.045" y2="16.03" width="0.254" layer="16"/>
+<contactref element="U3" pad="5"/>
+<wire x1="3.5834" y1="-8.6258" x2="2.045" y2="16.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL3_2">
 <contactref element="J5" pad="1"/>
@@ -2240,6 +2270,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="3.429" y1="13.716" x2="3.175" y2="13.462" width="0.254" layer="16"/>
 <wire x1="3.175" y1="13.462" x2="2.073" y2="13.462" width="0.254" layer="16"/>
 <wire x1="2.073" y1="13.462" x2="2.045" y2="13.49" width="0.254" layer="16"/>
+<contactref element="U3" pad="4"/>
+<wire x1="3.5834" y1="-10.5258" x2="2.045" y2="13.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL4_1">
 <contactref element="J6" pad="2"/>
@@ -2253,6 +2285,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="3.937" y1="11.176" x2="3.175" y2="10.414" width="0.254" layer="16"/>
 <wire x1="3.175" y1="10.414" x2="2.0436" y2="10.414" width="0.254" layer="16"/>
 <wire x1="2.0436" y1="10.414" x2="2.0358" y2="10.4062" width="0.254" layer="16"/>
+<contactref element="U4" pad="5"/>
+<wire x1="8.384" y1="-8.6258" x2="2.0358" y2="10.4062" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL4_2">
 <contactref element="J6" pad="1"/>
@@ -2268,6 +2302,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="7.493" y1="19.177" x2="6.35" y2="18.034" width="0.254" layer="16"/>
 <wire x1="3.429" y1="7.874" x2="2.0436" y2="7.874" width="0.254" layer="16"/>
 <wire x1="2.0436" y1="7.874" x2="2.0358" y2="7.8662" width="0.254" layer="16"/>
+<contactref element="U4" pad="4"/>
+<wire x1="8.384" y1="-10.5258" x2="2.0358" y2="7.8662" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL5_1">
 <contactref element="J7" pad="2"/>
@@ -2281,6 +2317,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="2.0828" y1="5.88121875" x2="2.0828" y2="4.8236" width="0.254" layer="16"/>
 <wire x1="9.5476" y1="18.1836" x2="9.5476" y2="12.9356125" width="0.254" layer="16"/>
 <wire x1="10.522" y1="19.158" x2="9.5476" y2="18.1836" width="0.254" layer="16"/>
+<contactref element="U5" pad="5"/>
+<wire x1="2.0828" y1="4.8236" x2="3.5834" y2="-13.7312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL5_2">
 <contactref element="J7" pad="1"/>
@@ -2294,6 +2332,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="2.9186" y1="2.2836" x2="2.0828" y2="2.2836" width="0.254" layer="16"/>
 <wire x1="3.429" y1="6.5278" x2="3.429" y2="2.794" width="0.254" layer="16"/>
 <wire x1="3.429" y1="2.794" x2="2.9186" y2="2.2836" width="0.254" layer="16"/>
+<contactref element="U5" pad="4"/>
+<wire x1="2.0828" y1="2.2836" x2="3.5834" y2="-15.6312" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL6_1">
 <contactref element="J8" pad="2"/>
@@ -2304,6 +2344,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="5.2162" y1="6.3408" x2="5.2162" y2="4.8796" width="0.254" layer="16"/>
 <wire x1="10.668" y1="16.6878" x2="10.668" y2="10.3314" width="0.254" layer="16"/>
 <wire x1="11.1382" y1="17.158" x2="10.668" y2="16.6878" width="0.254" layer="16"/>
+<contactref element="U6" pad="5"/>
+<wire x1="8.384" y1="-13.7312" x2="5.2162" y2="4.8796" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL6_2">
 <contactref element="J8" pad="1"/>
@@ -2319,6 +2361,14 @@ Please make sure your boards conform to these design rules.
 <wire x1="6.731" y1="5.8928" x2="6.731" y2="2.667" width="0.254" layer="16"/>
 <wire x1="6.731" y1="2.667" x2="6.4036" y2="2.3396" width="0.254" layer="16"/>
 <wire x1="6.4036" y1="2.3396" x2="5.2162" y2="2.3396" width="0.254" layer="16"/>
+<contactref element="U6" pad="4"/>
+<wire x1="5.2162" y1="2.3396" x2="8.384" y2="-15.6312" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SOLI1_1">
+<contactref element="U1" pad="5"/>
+</signal>
+<signal name="SOLI1_2">
+<contactref element="U1" pad="4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
