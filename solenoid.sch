@@ -3828,7 +3828,7 @@ W = angled&lt;p&gt;
 <text x="314.96" y="55.88" size="1.778" layer="91">Pin 17 (VDDIO2)</text>
 <text x="342.9" y="55.88" size="1.778" layer="91">Pin 5 (VDDA)</text>
 <text x="370.84" y="-33.02" size="5.08" layer="91">T21 Connector for 12V, CAN, GND</text>
-<text x="10.16" y="-17.78" size="6.4516" layer="91">NMOS ARRAY</text>
+<text x="10.16" y="-17.78" size="6.4516" layer="91">NPN Array</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="137.16" y="-40.64" smashed="yes">
