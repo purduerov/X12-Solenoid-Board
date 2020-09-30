@@ -4264,9 +4264,9 @@ W = angled&lt;p&gt;
 <label x="353.06" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="-50.8" x2="7.62" y2="-50.8" width="0.1524" layer="91"/>
-<label x="7.62" y="-50.8" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="IN1"/>
+<wire x1="15.24" y1="-66.04" x2="7.62" y2="-66.04" width="0.1524" layer="91"/>
+<label x="7.62" y="-66.04" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN4"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -4283,9 +4283,9 @@ W = angled&lt;p&gt;
 <label x="363.22" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
-<label x="7.62" y="-60.96" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="IN3"/>
+<wire x1="15.24" y1="-76.2" x2="7.62" y2="-76.2" width="0.1524" layer="91"/>
+<label x="7.62" y="-76.2" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN6"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -4295,9 +4295,9 @@ W = angled&lt;p&gt;
 <label x="360.68" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="-55.88" x2="7.62" y2="-55.88" width="0.1524" layer="91"/>
-<label x="7.62" y="-55.88" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="IN2"/>
+<wire x1="15.24" y1="-71.12" x2="7.62" y2="-71.12" width="0.1524" layer="91"/>
+<label x="7.62" y="-71.12" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN5"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -4598,6 +4598,11 @@ W = angled&lt;p&gt;
 <wire x1="350.52" y1="109.22" x2="350.52" y2="99.06" width="0.1524" layer="91"/>
 <label x="350.52" y="99.06" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="15.24" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
+<label x="7.62" y="-60.96" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN3"/>
+</segment>
 </net>
 <net name="GPIO9" class="0">
 <segment>
@@ -4619,12 +4624,22 @@ W = angled&lt;p&gt;
 <wire x1="353.06" y1="109.22" x2="353.06" y2="99.06" width="0.1524" layer="91"/>
 <label x="353.06" y="99.06" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="15.24" y1="-55.88" x2="7.62" y2="-55.88" width="0.1524" layer="91"/>
+<label x="7.62" y="-55.88" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN2"/>
+</segment>
 </net>
 <net name="GPIO12" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PA7"/>
 <wire x1="358.14" y1="109.22" x2="358.14" y2="99.06" width="0.1524" layer="91"/>
 <label x="358.14" y="99.06" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="15.24" y1="-50.8" x2="7.62" y2="-50.8" width="0.1524" layer="91"/>
+<label x="7.62" y="-50.8" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN1"/>
 </segment>
 </net>
 <net name="SOL3_1" class="0">
@@ -4673,27 +4688,6 @@ W = angled&lt;p&gt;
 <wire x1="45.72" y1="-76.2" x2="53.34" y2="-76.2" width="0.1524" layer="91"/>
 <label x="48.26" y="-76.2" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="OUT6"/>
-</segment>
-</net>
-<net name="GPIO4" class="0">
-<segment>
-<wire x1="15.24" y1="-66.04" x2="7.62" y2="-66.04" width="0.1524" layer="91"/>
-<label x="7.62" y="-66.04" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="IN4"/>
-</segment>
-</net>
-<net name="GPIO5" class="0">
-<segment>
-<wire x1="15.24" y1="-71.12" x2="7.62" y2="-71.12" width="0.1524" layer="91"/>
-<label x="7.62" y="-71.12" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="IN5"/>
-</segment>
-</net>
-<net name="GPIO6" class="0">
-<segment>
-<wire x1="15.24" y1="-76.2" x2="7.62" y2="-76.2" width="0.1524" layer="91"/>
-<label x="7.62" y="-76.2" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="IN6"/>
 </segment>
 </net>
 </nets>
